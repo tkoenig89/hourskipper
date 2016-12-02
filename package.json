@@ -1,6 +1,6 @@
 {
   "name": "skiphours",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript module, to wrap functions and only forward calls at specified hours during the day.",
   "main": "index.js",
   "scripts": {
