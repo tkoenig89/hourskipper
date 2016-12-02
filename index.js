@@ -26,7 +26,7 @@ function SkipHours(fn, opts) {
      */
     function testIfCallingShouldHappen() {
         var now = new Date();
-        return hoursArray[now.getHours() - 1]
+        return hoursArray[now.getHours()]
     }
 
     /**
@@ -49,12 +49,12 @@ function SkipHours(fn, opts) {
                     var hour_elem_split = hour_elem.split("-");
                     let min = parseInt(hour_elem_split[0]), max = parseInt(hour_elem_split[1]);
                     for (var j = min; j <= max; j++) {
-                        hoursArray[j - 1] = !inverse;
+                        hoursArray[j] = !inverse;
                     }
                 } else {
                     //single value
                     var h = parseInt(hour_elem);
-                    hoursArray[h - 1] = !inverse;
+                    hoursArray[h] = !inverse;
                 }
             }
             return hoursArray;
