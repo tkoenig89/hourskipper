@@ -1,0 +1,19 @@
+{
+  "name": "skiphours",
+  "version": "1.0.0",
+  "description": "JavaScript module, to wrap functions and only forward calls at specified hours during the day.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkoenig89/skiphours.git"
+  },
+  "author": "tobias koenig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkoenig89/skiphours/issues"
+  },
+  "homepage": "https://github.com/tkoenig89/skiphours#readme"
+}
