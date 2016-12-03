@@ -7,7 +7,7 @@ module.exports = SkipHours;
  * @returns {Function}
  */
 function SkipHours(fn, opts) {
-    opts = opts || {};
+    opts = opts || {hours:"!"};
     var hoursArray = parseTime(opts);
 
     return (...args) => {
